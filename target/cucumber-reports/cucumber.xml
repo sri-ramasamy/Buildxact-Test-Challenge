@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="46.911">
+<testcase classname="Login" name="Successful login with valid credentials" time="46.772">
+<system-out><![CDATA[Given User launch Chrome browser............................................passed
+When user opens URL "https://app-v2-staging.buildxact.com/login"............passed
+And user enters email as "srividya01@email.ghostinspector.com" and password as "Test@1234".passed
+And user clicks on login button.............................................passed
+Then page title of landing page is "Buildxact-stg: Dashboard"...............passed
+When user clicks on log out link............................................passed
+Then page title of landing page is "Buildxact-stg: Login"...................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
